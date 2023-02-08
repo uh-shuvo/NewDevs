@@ -1,5 +1,7 @@
 body {}
 
+/* header start 
+================== */
 .header-section {
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -40,4 +42,23 @@ body {}
     border-radius: 3px;
     color: #005FAC;
     text-decoration: none;
+}
+
+/* banner start 
+================ */
+.banner-main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.banners {
+    display: flex;
+}
+
+.banner img {
+    width: 369px;
+}
+
+.banner-title {
+    font-size: 40px;
 }
