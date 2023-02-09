@@ -50,6 +50,7 @@ body {}
 .banner-main {
     width: 900px;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .banners {
@@ -81,4 +82,34 @@ body {}
 .common-para i {
     color: #16D887;
     line-height: 5px;
+}
+
+/* feature start 
+================= */
+.plan-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.feature-thumbnail {
+    margin-left: 60px;
+}
+
+.icon-name {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.icon-paragraph {
+    font-size: 20px;
+    color: #737272;
+    margin-top: -16px;
 }
